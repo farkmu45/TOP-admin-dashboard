@@ -323,9 +323,38 @@ html {
   margin-top: 5px;
   line-height: 1.1rem;
   color: rgb(123, 123, 123);
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .card div span {
   font-size: 1.5rem;
+}
+
+/* Announcements */
+
+.announcements {
+  display: grid;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.announcements div {
+  padding: 1rem 0;
+}
+
+.announcements div h5 {
+  font-size: .9rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.announcements div p {
+  font-size: .8rem;
+  line-height: 1.05rem;
+  color: rgb(123, 123, 123);
+}
+
+.announcements div:not(:last-child) {
+  border-bottom: 1px solid rgb(221, 221, 221);
 }
