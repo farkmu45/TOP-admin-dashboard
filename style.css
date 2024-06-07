@@ -344,17 +344,56 @@ html {
 }
 
 .announcements div h5 {
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
 .announcements div p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.05rem;
   color: rgb(123, 123, 123);
 }
 
 .announcements div:not(:last-child) {
   border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+/* Trending */
+
+.trending {
+  border-radius: 7px;
+  background-color: white;
+}
+
+.trending-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.trending div {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.trending img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  grid-row: 1/-1;
+}
+
+.trending .username {
+  font-size: 0.9rem;
+}
+
+.trending .name {
+  grid-column: 2/-1;
+  font-size: 0.9rem;
+  color: rgb(134, 134, 134);
 }
